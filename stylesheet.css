@@ -1,72 +1,12 @@
-html {
-  background: url(img/background2.jpg);
-  background-size: cover;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: sans-serif;
-  color: lightgray;
-  font-size: 1em;
-  margin: 1;
-  padding: 1;
+  padding-top: 70px;
 }
-
-h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 3em;
-  padding: 1em;
-  margin: 1em;
-}
-
-nav {
-  float: right;
-}
-
-nav > a {
-  font-family: sans-serif;
-  display: inline-block;
+.jumbotron {
+  background-image: url('img/space.jpeg');
   color: white;
-  font-size: 0.75em;
-  text-decoration: none;
 }
-
-a:hover {
-  background-color: white;
-  color: #333;
-}
-
-.summary {
-  margin: auto;
-  display: block;
-  text-align: justify;
-  opacity: 0.6;
-  width: 40%;
-  border: 1px solid #333;
-  background-color: #0F0E0E;
-  padding: 1em;
-}
-
-.clear {
-  clear: both;
-}
-
 footer {
-  margin: auto;
-  display: block;
-  float: right;
-  width: 40%;
-  padding: 20px 15px;
+  padding: 30px 0 27px 0;
+  background-color: black;
+  color: white;
 }
-
-a:visited, a:link, a:active {
-  text-decoration: none;
-  color: none;
-}
-
-/* .fa fa-linkedin-square {
-  text-align: center;
-  font-size:36px;
-  margin: auto;
-  display: block;
-} */
